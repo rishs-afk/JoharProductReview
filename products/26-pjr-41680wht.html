@@ -73,9 +73,9 @@
     <a class="back" href="../index.html#storefront">Back to preview</a>
     <div class="breadcrumb">All Jewelry / Engagement</div>
     <section class="pdp">
-      <div class="thumbs"><button class="thumb" type="button" data-src="../assets/images/0287-images-selected__DSC_0518-Alefiya-Johar-e965c31229.jpg"><img src="../assets/images/0287-images-selected__DSC_0518-Alefiya-Johar-e965c31229.jpg" alt="Engagement Ring thumbnail"></button><button class="thumb" type="button" data-src="../assets/images/0975-images-Featured-Items-product__LR52547Y45JJ-4-c4777d5a9e.jpg"><img src="../assets/images/0975-images-Featured-Items-product__LR52547Y45JJ-4-c4777d5a9e.jpg" alt="Engagement Ring thumbnail"></button></div>
+      <div class="thumbs"><div class="thumb no-thumb"></div></div>
       <div class="gallery-main">
-        <img id="mainImage" src="../assets/images/0287-images-selected__DSC_0518-Alefiya-Johar-e965c31229.jpg" alt="Engagement Ring">
+        <div>No image available</div>
         <button class="nav prev" type="button" aria-label="Previous image">‹</button>
         <button class="nav next" type="button" aria-label="Next image">›</button>
       </div>
@@ -114,10 +114,10 @@
       <h2>Custom Review</h2>
       <div class="stars">4.5 ★ ★ ★ ★ ☆</div>
     </section>
-    <section class="related"><h2>You Might Also Like</h2><div class="related-grid"><div class="related-card"><img src="../assets/images/0975-images-Featured-Items-product__LR52547Y45JJ-4-c4777d5a9e.jpg" alt="Engagement Ring related view"></div></div></section>
+    
   </main>
   <script>
-    const images = ["../assets/images/0287-images-selected__DSC_0518-Alefiya-Johar-e965c31229.jpg", "../assets/images/0975-images-Featured-Items-product__LR52547Y45JJ-4-c4777d5a9e.jpg"];
+    const images = [];
     let current = 0;
     const mainImage = document.getElementById('mainImage');
     function show(index) {
