@@ -73,9 +73,9 @@
     <a class="back" href="../index.html#storefront">Back to preview</a>
     <div class="breadcrumb">All Jewelry / Rings</div>
     <section class="pdp">
-      <div class="thumbs"><div class="thumb no-thumb"></div></div>
+      <div class="thumbs"><button class="thumb" type="button" data-src="../assets/images/0009-images-google-drive-images-Links__SC22005624-aa80433d18.jpg"><img src="../assets/images/0009-images-google-drive-images-Links__SC22005624-aa80433d18.jpg" alt="Wedding Band thumbnail"></button></div>
       <div class="gallery-main">
-        <div>No image available</div>
+        <img id="mainImage" src="../assets/images/0009-images-google-drive-images-Links__SC22005624-aa80433d18.jpg" alt="Wedding Band">
         <button class="nav prev" type="button" aria-label="Previous image">‹</button>
         <button class="nav next" type="button" aria-label="Next image">›</button>
       </div>
@@ -117,7 +117,7 @@
     
   </main>
   <script>
-    const images = [];
+    const images = ["../assets/images/0009-images-google-drive-images-Links__SC22005624-aa80433d18.jpg"];
     let current = 0;
     const mainImage = document.getElementById('mainImage');
     function show(index) {
