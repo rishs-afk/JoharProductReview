@@ -1,0 +1,9 @@
+.DS_Store
+shopify_upload/current_shopify_products_delete_reference.csv
+shopify_upload/github_hosting_summary.json
+shopify_upload/matched_image_file_manifest.csv
+shopify_upload/matched_products_summary.csv
+shopify_upload/product_image_upload_manifest_GITHUB_URLS.csv
+shopify_upload/remaining_products_without_matched_new_images.csv
+shopify_upload/unmatched_image_files_no_sku_manifest.csv
+shopify_upload/upload_package_summary.json
